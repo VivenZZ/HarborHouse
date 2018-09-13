@@ -4,8 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import 'lib-flexible/flexible.js'
+import '@/assets/less/reset.css'
+
 Vue.config.productionTip = false
-import '../src/assets/less/reset.css'
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
