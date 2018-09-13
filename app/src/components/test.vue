@@ -1,6 +1,6 @@
 <template>
   <div id="test">
-    <HeaderIndex :headerInfo='headerInfo' />
+    <HeaderIndex :headerInfo='headerInfo' :headerType='headerType' />
   </div>
 </template>
 <script>
@@ -12,17 +12,8 @@ export default{
   },
   data () {
     return {
-      headerInfo: [
-        {
-          id: 1
-        },
-        {
-          id: 2
-        },
-        {
-          id: 3
-        }
-      ]
+      headerInfo: [{id: 1}, {id: 2}, {id: 3}],
+      headerType: 1
     }
   }
 }
